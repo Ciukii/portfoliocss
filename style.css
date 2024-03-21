@@ -1,0 +1,172 @@
+html{
+    width: 100%;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.conhead{
+    background-color: #E3FDFD;
+}
+
+.infobody{
+    background-color: #CBF1F5;
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.profilepic{
+display: flex;
+justify-content: center;
+align-self: flex-end;
+order: 1;
+padding-left: 200px;
+}
+
+.nameandmotto{
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+.features{
+    height: 650px;
+    background-color: #A6E3E9;
+
+}
+
+
+    
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    background-color: #E3FDFD;
+    
+}
+
+.futureproj{
+    height: 700px;
+    padding-top: 50px;
+    background-color: #E3FDFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.projp{
+    padding-top: 50px;
+    
+}
+
+.catpc{
+    padding-top: 40px;
+}
+
+.footsocial{
+    height: 150px;
+    background-color: #CBF1F5;  
+    display: flex;
+    flex-direction: column;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 25px;
+    
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 50px;
+    
+}
+.bi-facebook{
+    height:30px;
+}
+
+.bi-instagram{
+    height: 30px;
+}
+.bi-envelope{
+    height: 30px;
+}
+
+.bi-twitter-x{
+    height: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.coming-soon-regular {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #387ADF;
+    
+  }
+
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  .cardtitles{
+    color: #387ADF !important;
+  }
+
+.ptexts{
+    color: #E3FDFD;
+}
+
+.ptext2{
+    color:#387ADF;
+    font-size: larger;
+}
+.cardtitle2{
+    color:#A6E3E9;
+}
+
+
+.infobodyx{
+    font-weight: bolder;
+    color: #71C9CE;
+}
+
+
+@media (max-width: 991px){
+    .infobody{
+        flex-direction: column;
+}
+.profilepic{
+    margin-right: 48px;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+    order: 0;
+    padding-bottom: 30px;
+ 
+    
+}
+.fotina{
+    height: 350px;
+}
+
+
+}
